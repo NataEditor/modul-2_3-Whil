@@ -3,8 +3,8 @@ print(my_list)
 d = len(my_list)
 #print(d)
 nambe = 0
-while nambe <= d:
-    if my_list[nambe] >= 0:
+while nambe < d:
+    if my_list[nambe] > 0:
         print(my_list[nambe])
         nambe = nambe + 1
     else:
